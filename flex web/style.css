@@ -1,0 +1,62 @@
+.container{
+    width:1200px;
+    margin:auto;/*remaining space even a eranu orathulaum split agum*/
+}
+.banner-wrapper{
+    display:flex;
+}
+.banner-left{
+    flex-basis:50%;
+    padding-top: 90px;;
+}
+.banner-right{
+    flex-basis:50%;
+    text-align: center;
+}
+.about-wrapper{
+    display:flex;
+    background-color: #f7f7f7;
+    padding:30px;
+    margin-top: 40px;
+}
+.about-left{
+    flex-basis:50%;
+    
+}
+.about-right{
+    flex-basis:50%;
+}
+.service-details{
+    display:flex;
+}
+.service-detail{
+    flex-basis:50%;
+}
+#header{
+    background-color: white;
+    padding:14px 0;
+}
+#header h1{
+    font-size:24px;
+}
+#banner{
+    background-color: #f7f7f7;
+    height:400px;
+}
+#banner h2{
+    font-size:41px;
+    padding-bottom: 0 0 20px;
+}
+#banner p{
+    font-size:24px;
+    padding-bottom: 0 0 20px;
+}
+#banner a{
+    background-color: #00BCD4;
+    color:white;
+    text-decoration: none;
+    display:inline-block;
+}
+#banner img{
+   max-width:60%;
+}
